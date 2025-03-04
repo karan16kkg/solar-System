@@ -23,7 +23,7 @@ const SolarSystem = ({ planets }) => {
 
     // 🌌 Load Starry Background
     const textureLoader = new THREE.TextureLoader();
-    const starTexture = textureLoader.load("https://t4.ftcdn.net/jpg/02/43/75/73/360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg");
+    const starTexture = textureLoader.load("https://t4.ftcdn.net/jpg/01/04/58/81/360_F_104588182_AAYsCkzwhzg4WO9yY8ZqCqK07PDsvXrv.jpg");
     scene.background = starTexture;
 
     // ☀️ Create Sun
